@@ -6,7 +6,7 @@ import router from "./routes/index.js";
 dotenv.config();
 const app = express();
 
-app.use(cors({ credentials: true, origin: 'https://sea-turtle-app-xio2d.ondigitalocean.app' }));
+app.use(cors({ credentials: true, origin: 'https://jellyfish-app-rm9ih.ondigitalocean.app' }));
 app.use(cookieParser());
 app.use(express.json());
 app.use(router);
